@@ -46,7 +46,7 @@ class savePosts extends Command
             // Base URL
             $baseURL = $site->url;
             // Endpoint URL
-            $endpointURL = "/wp-json/wp/v2/categories";
+            $endpointURL = "/wp-json/wp/v2/categories?per_page=100";
             // Concatenate the URLs
             $url = $baseURL . $endpointURL;
             // dd($url);
